@@ -1,6 +1,7 @@
 const path = require('path');
 const conf = require('./config/projectConfig');
 module.exports = {
+  // https://cli.vuejs.org/zh/config/#pages
   pages: conf.pages,
   publicPath: './',
   outputDir: conf.outputDir,
